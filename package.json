@@ -1,0 +1,25 @@
+{
+  "name": "currency-breakdown-ui",
+  "version": "1.0.12",
+  "description": "",
+  "main": "./dist/currency-breakdown-ui.umd.cjs",
+  "module": "./dist/currency-breakdown-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/currency-breakdown-ui.js",
+      "require": "./dist/currency-breakdown-ui.umd.cjs"
+    },
+    "./style.css": "./dist/currency-breakdown-ui.css"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "vite": "^8.0.13"
+  }
+}
