@@ -4,6 +4,10 @@ A lightweight visual money breakdown library for JavaScript, React, Ionic, Angul
 
 Render beautiful animated Indian currency stacks, bundles, wallets, peti and khoka visuals based on amount.
 
+## Screenshots
+
+![App Screenshot](https://res.cloudinary.com/duj37krpb/image/upload/v1779431412/currency-breakdown-ui_ucj3vc.gif)
+
 ## Features
 
 - Animated currency stacks
