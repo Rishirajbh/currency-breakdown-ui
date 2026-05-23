@@ -1,6 +1,6 @@
 {
   "name": "currency-breakdown-ui",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "",
   "main": "./dist/currency-breakdown-ui.umd.cjs",
   "module": "./dist/currency-breakdown-ui.js",
@@ -15,7 +15,7 @@
     "build": "vite build"
   },
   "keywords": [],
-  "author": "",
+  "author": "rishiraj bhanji",
   "license": "ISC",
   "type": "module",
   "types": "./index.d.ts",
@@ -23,6 +23,7 @@
     "vite": "^8.0.13"
   },
   "files": [
-    "dist"
+    "dist",
+    "index.d.ts"
   ]
 }

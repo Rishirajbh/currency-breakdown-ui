@@ -1,16 +1,22 @@
 declare module "currency-breakdown-ui" {
-  export interface CurrencyBreakdownOptions {
-    amount: number;
-    currency?: string;
+  export interface RenderConfig {
+    noteScale?: number;
+    coinScale?: number;
+    overlapRatio?: number;
+    maxOverlapRatio?: number;
+    maxRotation?: number;
   }
 
-  export function renderCurrencyBreakdown(
-    element: HTMLElement,
-    options: CurrencyBreakdownOptions,
-  ): void;
+  export interface RenderOptions {
+    element: string | HTMLElement;
+    amount: number;
+    config?: RenderConfig;
+  }
+
+  export function render(options: RenderOptions): void;
 
   const CurrencyBreakdown: {
-    renderCurrencyBreakdown: typeof renderCurrencyBreakdown;
+    render: typeof render;
   };
 
   export default CurrencyBreakdown;
