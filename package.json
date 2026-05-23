@@ -1,6 +1,6 @@
 {
   "name": "currency-breakdown-ui",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "",
   "main": "./dist/currency-breakdown-ui.umd.cjs",
   "module": "./dist/currency-breakdown-ui.js",
