@@ -4,7 +4,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "./src/index.js",
-      name: "CurrencyBreakdown",
+      name: "CurrencyBreakdownUI",
       fileName: "currency-breakdown-ui",
     },
   },
