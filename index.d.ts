@@ -1,14 +1,17 @@
-declare namespace CurrencyBreakdown {
-  interface RenderOptions {
-    element: string | HTMLElement;
+declare module "currency-breakdown-ui" {
+  export interface CurrencyBreakdownOptions {
     amount: number;
+    currency?: string;
   }
 
-  function render(options: RenderOptions): void;
+  export function renderCurrencyBreakdown(
+    element: HTMLElement,
+    options: CurrencyBreakdownOptions,
+  ): void;
+
+  const CurrencyBreakdown: {
+    renderCurrencyBreakdown: typeof renderCurrencyBreakdown;
+  };
+
+  export default CurrencyBreakdown;
 }
-
-declare const CurrencyBreakdown: {
-  render: typeof CurrencyBreakdown.render;
-};
-
-export default CurrencyBreakdown;
